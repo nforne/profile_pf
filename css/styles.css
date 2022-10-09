@@ -1,0 +1,139 @@
+body {
+  margin: 10px;
+  text-align: center;
+  font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif;
+  align-content: center;
+  width: 98%;
+}
+
+.profile_head {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  line-height: 2px;
+  /* background-image: url('../images/image_a.png'); */
+}
+
+#logo {
+  border-radius: 50%;
+  position: relative;
+  border: double powderblue 0.25em;
+  padding: 5em;
+  height: 15em;
+  width: 15em;
+}
+
+.profile {
+  border-spacing: 5px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items:center;
+  position: relative;
+  padding: 10%;
+  height: 10em;
+
+}
+
+.z_index {
+  z-index: -500px;
+  display: inline-block;
+  position: absolute;
+}
+
+h1 {
+  border: 0;
+  font-size: 10em;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+#h2 {
+  color: #66BFBF;
+}
+
+h4 {
+  font-size: 2em;
+  font-family: 'Sacramento', cursive;
+}
+
+div {
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
+.test {
+  height: 200px;
+  width: 200px;
+}
+
+.skill-img {
+  border-spacing: 20em;
+  display: inline-block;
+  position: relative;
+  border-radius: 50%;
+  height:10em;
+  width: 10em;
+  padding: 10%;
+  /* height: 10%;
+  width: 10% */
+}
+
+.skill-row {
+  text-decoration-color: gold;
+  display: flex;
+  flex-direction: row;
+  align-content:space-between;
+  align-items:center;
+  position: relative;
+}
+
+a {
+  color: #11999E;
+}
+
+#top_container {
+  border-radius: 2%;
+  /* display: inline-block;
+  align-self: center; */
+  /* background-image: url('../images/mountain.png'); */
+  position: relative;
+  /* right: 20px */
+  background-color: #C3F8FF;
+  margin-bottom: 0;
+  /* margin-right: 20px; */
+  /* border: solid 10px, 10px, 10px, 10px; */
+  padding: 20px;
+  border: dashed black 0.25em;
+  /* border-color: dashed black; */
+  height: 100%;
+  width: 100%
+}
+
+#middle_container {
+  position: relative;
+  /* height: 100%;
+  width:100%; */
+  z-index: 500px;
+  /* background-color: #FFE9A0; */
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 270px;
+  border: solid 20px;
+  border-color: black;
+}
+
+#bottom_container {
+  /* background-color: #B09B71; */
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 510px;
+  border: solid 10px;
+  border-color: black;
+}
